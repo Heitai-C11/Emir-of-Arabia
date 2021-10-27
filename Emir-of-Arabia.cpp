@@ -21,7 +21,7 @@ int main (int ArgCount, char **Args)
 {
 
   u32 WindowFlags = SDL_WINDOW_OPENGL;
-  SDL_Window *Window = SDL_CreateWindow("OpenGL Test", 0, 0, WinWidth, WinHeight, WindowFlags);
+  SDL_Window *Window = SDL_CreateWindow("Emir of Arabia", 0, 0, WinWidth, WinHeight, WindowFlags);
   assert(Window);
   SDL_GLContext Context = SDL_GL_CreateContext(Window);
   
